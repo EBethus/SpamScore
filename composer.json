@@ -15,7 +15,7 @@
                 "EBethus\\SpamScore\\SpamScoreServiceProvider"
             ],
             "aliases": {
-                "SpamScore": "EBethus\\SpamScore\\SpamScore"
+                "SpamScore": "EBethus\\SpamScore\\SpamScoreFacade"
             }
         }
     }
