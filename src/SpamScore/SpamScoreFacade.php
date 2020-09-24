@@ -1,5 +1,5 @@
 <?php
-namespace App\Facades;
+namespace EBethus\SpamScore;
 
 use Illuminate\Support\Facades\Facade;
 
