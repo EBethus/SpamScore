@@ -6,7 +6,7 @@
     },
     "autoload": {
         "psr-4": {
-            "EBethus\\": "src/"
+            "EBethus\\SpamScore\\": "src/SpamScore"
         }
     },
     "extra": {
