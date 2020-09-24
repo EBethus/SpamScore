@@ -11,7 +11,7 @@ class SpamScore
     public function score($text)
     {
         $keywords = json_decode(file_get_contents(resource_path('spam.json')));
-        $master = strtolower(strip_tags($value));
+        $master = strtolower(strip_tags($text));
         $total = 0;
         foreach ($keywords as $keyword => $w) {
             $total += ($w ** substr_count($master, $keyword)-1);
