@@ -3,7 +3,7 @@ namespace App\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class SpamScore extends Facade
+class SpamScoreFacade extends Facade
 {
     protected static function getFacadeAccessor()
     {
