@@ -7,6 +7,6 @@ class SpamScoreFacade extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \EBethus\SpamScoreSpamScore::class;
+        return \EBethus\SpamScore\SpamScore::class;
     }
 }
