@@ -3,7 +3,6 @@
 namespace EBethus\SpamScore;
 
 use Illuminate\Support\ServiceProvider;
-use Riak\Connection;
 
 class SpamScoreServiceProvider extends ServiceProvider
 {
