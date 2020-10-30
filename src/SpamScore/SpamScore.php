@@ -28,7 +28,7 @@ class SpamScore
             }
         }
 
-        $perc = ($matchs / $words) *100;
+        $perc = $words > 0 ? ($matchs / $words) *100 : 0;
         $factor = 1;
         if ($perc >= 70) {
             $factor = 10;
