@@ -1,6 +1,5 @@
 {
     "name": "ebethus/laravel-spamscore",
-    "version": "0.0.1",
     "require": {
         "illuminate/support": "^8.0|^7.0|^6.0"
     },
