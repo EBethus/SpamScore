@@ -1,5 +1,7 @@
 {
     "name": "ebethus/laravel-spamscore",
+    "description": "A Laravel lib to help detecting spam",
+    "license": "MIT",
     "require": {
         "illuminate/support": "^8.0|^7.0|^6.0"
     },
